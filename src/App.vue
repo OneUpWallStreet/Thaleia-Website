@@ -1,15 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div>
+
+    <div class="flex justify-center border border-black">
+      
+      <div class="flex flex-col">
+            <h1 class="font-bold to-blue-600">Thaleia</h1>  
+            <h1> Flex </h1>
+      </div>
+
+
+      
+    </div>
+
+  </div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
   }
 }
 </script>
