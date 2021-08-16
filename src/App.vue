@@ -2,16 +2,15 @@
 
   <div>
 
-    <div class="flex justify-center border border-black">
-      
-      <div class="flex flex-col">
-            <h1 class="font-bold to-blue-600">Thaleia</h1>  
-            <h1> Flex </h1>
-      </div>
+      <router-link to = "/">Home</router-link>
+       <router-link to = "/about">about</router-link>
 
+       <router-view>
 
-      
-    </div>
+         
+
+       </router-view>
+
 
   </div>
 
