@@ -1,9 +1,10 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-import Donkey from './components/Donkey.vue'
-import HelloWorld from './components/HelloWorld.vue'
-
-// Vue.use(VueRouter);
+// import Donkey from './components/Donkey.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
+import Privacy from './components/Privacy.vue'
+import Contact from './components/Contact.vue'
 
 
 const routes =[ 
@@ -11,13 +12,18 @@ const routes =[
     {
         path: "/",
         name: "Home",
-        component: Donkey
+        component: Home
     },
     {
-        path: "/about",
-        name: "About",
-        component: HelloWorld
-    }
+        path: "/privacy",
+        name: "Privacy",
+        component: Privacy
+    },
+    {
+        path: "/contact",
+        name: "contact",
+        component: Contact
+    },
 ];
 
 const router = createRouter({
