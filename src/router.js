@@ -4,7 +4,7 @@ import { createWebHistory, createRouter } from "vue-router";
 // import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
 import Privacy from './components/Privacy.vue'
-import Contact from './components/Contact.vue'
+// import Contact from './components/Contact.vue'
 
 
 const routes =[ 
@@ -19,11 +19,11 @@ const routes =[
         name: "Privacy",
         component: Privacy
     },
-    {
-        path: "/contact",
-        name: "contact",
-        component: Contact
-    },
+    // {
+    //     path: "/contact",
+    //     name: "contact",
+    //     component: Contact
+    // },
 ];
 
 const router = createRouter({

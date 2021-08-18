@@ -9,7 +9,7 @@
 
             <div class="flex flex-row">
                 <router-link class="px-2" to="/privacy">Privacy</router-link>
-                <router-link class="px-2" to="/contact">Contact Us</router-link>
+                <!-- <router-link class="px-2" to="/contact">Contact Us</router-link> -->
             </div>
             
         </div>
