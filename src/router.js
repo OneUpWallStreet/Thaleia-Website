@@ -15,6 +15,11 @@ const routes =[
         component: Home
     },
     {
+        path: "/home",
+        name: "MainMenu",
+        component: Home   
+    },
+    {
         path: "/privacy",
         name: "Privacy",
         component: Privacy
